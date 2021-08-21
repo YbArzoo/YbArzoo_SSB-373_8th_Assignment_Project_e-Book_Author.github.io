@@ -1,0 +1,135 @@
+* { margin: 0px; padding: 0px; }
+header { }
+header nav { width: 30%; margin: auto; }
+header nav ul { list-style: none; display: flex; justify-content: space-between; height: 100px; align-items: center; }
+header nav ul li { }
+header nav ul li a { text-decoration: none; color: black; font-size: 17px; }
+.victor { }
+.victor a { text-decoration: none; color: black; }
+.victor h1 { text-align: center; margin-top: 20px; font-weight: 200; font-size: 30px; }
+.content_1 { display: flex; width: 85%; margin: auto; }
+.road { margin-top: 160px; }
+.road h1 { font-size: 50px; font-weight: 100; }
+.road h2 { font-size: 30px; font-weight: 100; margin-top: 15px; }
+.road hr { margin: 20px 0px; width: 65px; height: 1px; background-color: black; }
+.road p { font-size: 17px; color: rgb(117, 117, 161); }
+.featured_img { margin-top: 35px; padding-left: 162px; }
+.featured_img img { }
+.btn_read { height: 300px; display: flex; justify-content: flex-start; align-items: center; margin-top: -90px; }
+.btn_read button { border: none; background-color: black; color: white; padding: 15px 40px; }
+.content_2 { width: 70%; margin: auto; padding-top: 60px; }
+.buy { }
+.buy h1 { text-align: center; font-size: 45px; font-weight: 100; padding: 25px 0px; }
+.buy p { text-align: center; padding: 5px 250px; color: rgb(117, 117, 161); }
+.border { border-top: none; border-right: none; border-left: none; border-image: initial; border-bottom: 1px solid black; width: 5%; margin: auto; padding-top: 40px; }
+.upper_btn { display: flex; justify-content: space-between; width: 75%; margin-top: 40px; padding: 0px 125px; font-weight: 300; }
+.btn_bk { font-weight: 300; }
+.btn_bk button { border: none; background-color: black; color: white; padding: 10px 43px; font-size: 16px; }
+.lower_btn { display: flex; justify-content: space-between; width: 50%; margin-top: 30px; padding: 0px 240px; font-weight: 300; }
+.author { display: flex; justify-content: space-evenly; background: rgb(247, 247, 247); height: 710px; margin-top: 75px; }
+.author_about { margin: 90px 0px; display: flex; justify-content: space-evenly; }
+.author_img { padding: 60px 125px; }
+.author_img img { }
+.author_info { width: 40%; margin-top: 160px; }
+.author_info h1 { font-size: 40px; font-weight: 100; }
+.author_info h2 { font-size: 26px; font-weight: 500; margin: 30px 0px; }
+.border_author { border-bottom: 1px solid black; width: 10%; margin-bottom: 30px; }
+.author_info p { font-weight: 400; margin-bottom: 30px; line-height: 28px; font-size: 19px; color: rgb(117, 117, 161); }
+.author_info a { text-decoration: none; color: black; font-size: 20px; font-weight: 100; }
+.quote { }
+.quote_content { margin: 100px 0px; }
+.quote_content h2 { width: 59%; margin: auto; font-size: 30px; text-align: center; line-height: 40px; font-weight: 100; }
+.quote_content h3 { width: 21%; margin: 20px auto auto; font-weight: 500; }
+.quote_content ul { width: 8%; margin: 20px auto auto; list-style: none; display: flex; justify-content: space-between; padding-right: 25px; }
+.quote_content ul li { }
+.quote_content ul li a { color: rgb(240, 173, 78); }
+.banner { width: 90%; margin: auto; }
+.banner_img { }
+.banner_img img { width: 100%; }
+.shipping { margin: 50px 0px; }
+.four_types { width: 60%; display: flex; margin: auto; justify-content: space-between; }
+.type { text-align: center; }
+.type h1 { font-weight: 100; font-size: 27px; }
+.type p { margin-top: 10px; color: rgb(162, 162, 162); margin-bottom: 25px; }
+.type a { text-decoration: none; margin-top: 20px; color: black; font-size: 20px; font-weight: 700; }
+.upper_line { border-top: 1px solid black; width: 40%; margin: auto; padding-bottom: 40px; }
+.horizantal { width: 80%; border-bottom: 1px solid gainsboro; margin: 80px auto 20px; }
+.book { width: 30%; margin: auto; text-align: center; padding-top: 60px; }
+.top { }
+.top h1 { font-size: 45px; font-weight: 100; padding-bottom: 15px; }
+.top p { line-height: 23px; color: rgb(156, 156, 156); }
+.book_line { border-bottom: 1px solid black; padding: 10px; width: 10%; margin: auto; }
+.book_show { width: 80%; margin: 35px auto auto; }
+.three_book { }
+.three_book img { width: 33%; }
+.book_text_part { display: flex; margin: 20px auto auto; width: 102%; }
+.book_text { padding-right: 50px; padding-bottom: 100px; }
+.book_text h1 { font-size: 30px; font-weight: 100; padding-bottom: 10px; }
+.book_text h2 { font-size: 20px; font-weight: 100; padding-bottom: 10px; }
+.book_text_line { border-top: 1px solid black; width: 15%; padding-bottom: 10px; }
+.book_text p { color: rgb(148, 148, 148); padding-bottom: 25px; }
+.book_text a { text-decoration: none; font-size: 19px; font-weight: 600; color: black; }
+.about {padding-top: 100px;background: rgb(28, 30, 36);padding-bottom: 80px;}
+.about_content {display: flex;width: 85%;margin: auto;justify-content: space-between;}
+.about_victor { width: 30%; }
+.about_victor h1 { color: white; font-weight: 100; padding-bottom: 20px; font-size: 25px; }
+.about_victor p {padding-right: 45px;color: rgb(114, 132, 139);font-size: 20px;}
+.upcomming {width: 30%;padding-right: 15px;}
+.upcomming h1 { color: white; font-weight: 100; padding-bottom: 40px; }
+.upcomming p { color: rgb(114, 132, 139); font-size: 17px; padding-bottom: 15px; }
+.abt_line { border-top: 1px solid white; padding: 20px; width: 100%; }
+.subscribe {width: 30%;padding-left: 57px;padding-right: 10px;}
+.subscribe h1 { padding-left: 10px; color: white; font-weight: 100; padding-bottom: 30px; }
+.subscribe input { width: 100%; padding: 16px 5px; border: none; outline: none; font-size: 18px; }
+.subscribe_btn {/* width: 100%; *//* background: black; *//* border: none; *//* height: 62%; */outline: none;margin-top: 30px;}
+.subscribe_btn button {width: 50%;height: 55px;outline: none;background: black;color: white;border: none;font-size: 20px;cursor: pointer;}
+footer{
+
+background: #000000;
+}
+.footer_content{
+
+width: 85%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+height: 80px;
+
+align-items: center;
+}
+.copyright{
+    
+}
+.footer_content p{
+    
+color: #5d5d5d;
+    
+font-size: 20px;
+}
+.list{
+
+width: 30%;
+}
+.list ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: space-between;
+}
+.list ul li{
+    
+}
+.list ul li a{
+    
+text-decoration: none;
+    
+color: #8a8383;
+    
+font-size: 19px;
+}
